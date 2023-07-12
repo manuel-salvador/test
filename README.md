@@ -1,3 +1,3 @@
 # TEST
 
-Probando template
+Probando desde repo local
