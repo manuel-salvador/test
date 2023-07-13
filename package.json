@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "prepare": "husky install",
-    "precommit": "node index.js"
+    "precommit": "node index.js",
+    "lint": "npx eslint"
   },
   "keywords": [],
   "author": "",
