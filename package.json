@@ -4,7 +4,7 @@
   "description": "Probando desde repo local",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "prepare": "husky install",
     "precommit": "node index.js"
   },
@@ -12,7 +12,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "husky": "^8.0.3"
+    "eslint": "^8.44.0",
+    "husky": "^8.0.3",
+    "jest": "^29.6.1",
+    "lint-staged": "^13.2.3"
   }
 }
-
